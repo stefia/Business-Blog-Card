@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+    background-color: #F2F5F9;
+}
+
+.text--h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111729;
+}
+
+.text--body-md {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4A5567;
+}
+
+.text--body-strong {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111729;
+}
+
+.text--body-sm {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4A5567;
+}
+
+.business-card {
+    margin: 100px auto 0 auto;
+    width: 418px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.business-card__intro {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 32px 40px;
+    background-color: #fff;
+    gap: 18px;
+}
+
+.business-card__media {
+    position: relative;
+}
+
+.business-card__media-img {
+    display: block;         
+    width: 100%;
+    height: auto;
+}
+
+.business-card__media-overlay {
+    position: absolute;     
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+.business-card__info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.business-card__author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #F2F5F9;
+}
+
