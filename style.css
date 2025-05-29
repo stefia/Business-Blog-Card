@@ -13,12 +13,14 @@ body {
 .text--h1 {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: -1px;
     color: #111729;
 }
 .text--body-md {
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
     color: #4A5567;
 }
 
@@ -46,7 +48,7 @@ body {
     flex-direction: column;
     padding: 0px 25px 25px 25px;
     background-color: #fff;
-    gap: 18px;
+    gap: 20px;
 }
 
 .business-card__media {
