@@ -38,7 +38,7 @@ body {
 .business-card {
     margin: 220px auto 0 auto;
     width: 418px;
-    border-radius: 8px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
