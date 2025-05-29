@@ -45,7 +45,7 @@ body {
 .business-card__intro {
     display: flex;
     flex-direction: column;
-    padding: 0px 40px 32px 40px;
+    padding: 0px 25px 25px 25px;
     background-color: #fff;
     gap: 18px;
 }
@@ -79,8 +79,8 @@ hr {
 }
 
 .business-card__author-img {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     border: 5px solid #F2F5F9;
 }
