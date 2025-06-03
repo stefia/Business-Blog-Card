@@ -38,7 +38,7 @@ body {
 
 .business-card {
     margin: 200px auto 0 auto;
-    width: 420px;
+    max-width: 420px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -93,3 +93,8 @@ hr {
     border: 5px solid #F2F5F9;
 }
 
+@media (max-width: 640px) {
+    .reviewers__container {
+        margin-top: 30px;
+    }
+}
