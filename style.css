@@ -14,7 +14,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     color: #111729;
 }
 .text--body-md {
@@ -37,8 +37,8 @@ body {
 }
 
 .business-card {
-    margin: 180px auto 0 auto;
-    width: 400px;
+    margin: 200px auto 0 auto;
+    width: 420px;
     border-radius: 10px;
     overflow: hidden;
 }
