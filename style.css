@@ -14,7 +14,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     color: #111729;
 }
 .text--body-md {
@@ -48,7 +48,11 @@ body {
     flex-direction: column;
     padding: 0px 32px 24px 32px;
     background-color: #fff;
-    gap: 20px;
+}
+
+.business-card__title {
+    margin-bottom: 12px;
+    
 }
 
 .business-card__media {
@@ -72,6 +76,7 @@ body {
 
 hr {
     opacity: 0.1;
+    margin: 24px 0px;
 }
 
 .business-card__info {
