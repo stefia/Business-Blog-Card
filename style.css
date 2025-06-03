@@ -58,7 +58,6 @@ body {
 .business-card__media-img {
     display: block;         
     width: 100%;
-    height: 280px;
 }
 
 .business-card__media-overlay {
